@@ -28,6 +28,38 @@ This repository defines **protocol semantics**, not an implementation. Any softw
 - 05-verification.md — Verification model and guarantees
 - 06-reference-verifier.md — Read-only reference verification interface
 
+## What Is ForgeRun? (Non-Normative)
+
+ForgeRun is a neutral transparency protocol for verifiable governance evidence.
+
+It defines a public, append-only way to record that a governance-relevant decision occurred, what evidence was produced, and how that evidence can be independently verified — without requiring trust in the operator.
+
+ForgeRun is intentionally limited to mechanical, falsifiable properties such as structure, cryptographic integrity, inclusion proofs, and timestamps.
+
+### What ForgeRun Does
+
+ForgeRun provides a protocol specification, not a service.
+
+It defines:
+- How commitments are structured
+- How receipts bind to commitments
+- How inclusion in append-only ledgers can be proven
+- How third parties can independently verify evidence
+
+All verification is read-only and mechanical.
+
+### What ForgeRun Does Not Do
+
+ForgeRun explicitly does not:
+- Judge correctness, fairness, or safety
+- Enforce policy or compliance rules
+- Issue certifications, approvals, or scores
+- Operate dashboards or monitoring systems
+- Provide opinions, recommendations, or commercial services
+
+Any interpretation of verification results occurs outside the protocol.
+
+
 ### Reference Verifier Clarification
 
 ForgeRun does **not** ship, operate, or require a reference verifier implementation.
