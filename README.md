@@ -14,6 +14,14 @@ This repository defines:
 - 05-verification.md — Verification model and guarantees
 - 06-reference-verifier.md — Read-only reference verification interface
 
+### Reference Verifier Clarification
+
+ForgeRun does **not** ship, operate, or require a reference verifier implementation.
+
+The ForgeRun specification defines a **read-only verification interface** only, describing the mechanical checks that an independent verifier *may* perform (structure, cryptography, inclusion, timestamps).
+
+Any implementation of a verifier is developed, operated, and trusted (or not) entirely by third parties. ForgeRun does not publish verdicts, certifications, scores, or compliance judgments.
+
 
 It does **not** define:
 
