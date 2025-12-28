@@ -5,6 +5,10 @@ This repository contains the **canonical protocol specification** for ForgeRun.
 ForgeRun is a neutral transparency protocol for recording governance-relevant decisions made by automated systems into **public, append-only ledgers**, enabling independent verification of *inclusion*, *integrity*, and *consistency* without trusting the operator.
 
 This repository defines:
+## Specification Documents
+
+- [01-overview.md](./01-overview.md) — Protocol overview and scope
+
 
 - The protocol surface and invariants
 - Commitment and receipt semantics
