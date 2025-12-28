@@ -78,4 +78,49 @@ A commitment does **not** assert:
 
 - Correctness of the decision
 - Compliance with law or policy
-- Fairness, safety, or
+- Fairness, safety, or ethics
+- Intent or interpretation
+- Approval or endorsement
+
+These interpretations occur **outside** the ForgeRun protocol.
+
+---
+
+## Failure Modes
+
+A commitment MAY be considered invalid if:
+
+- Its cryptographic integrity cannot be verified
+- Its inclusion proof fails
+- It violates a stated invariant
+- It references an unknown or incompatible protocol version
+
+Invalid commitments MUST still remain observable.
+
+---
+
+## Relationship to Receipts
+
+Commitments assert *that* something occurred.
+
+Receipts (defined in `04-receipts.md`) assert *that a commitment was observed, included, or verified* by a system or third party.
+
+---
+
+## Non-Goals
+
+This document intentionally excludes:
+
+- Ledger implementation details
+- Key management policies
+- Trust models
+- Governance enforcement
+- Economic incentives
+
+---
+
+## Status
+
+This document is **normative**.
+
+Any system claiming ForgeRun compatibility MUST honor the commitment semantics and invariants defined herein.
