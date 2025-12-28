@@ -12,6 +12,7 @@ This repository defines:
 - 03-commitments.md — Commitment structure and semantics
 - 04-receipts.md — Receipt generation and verification
 - 05-verification.md — Verification model and guarantees
+- 06-reference-verifier.md — Read-only reference verification interface
 
 
 It does **not** define:
