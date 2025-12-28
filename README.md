@@ -7,6 +7,20 @@ ForgeRun is a neutral transparency protocol for recording governance-relevant de
 This repository defines:
 ## Specification Documents
 
+### How to read this spec
+
+If you are new to ForgeRun, read the documents in order:
+
+1. **01-overview.md** — What ForgeRun is, what it is not, and the scope boundary.
+2. **02-definitions.md** — The vocabulary used across the spec. (Normative terms are defined here.)
+3. **03-commitments.md** — What a commitment is and how it is structured.
+4. **04-receipts.md** — How receipts bind to commitments and what can be verified mechanically.
+5. **05-verification.md** — The verification model and guarantees (inclusion, integrity, consistency).
+6. **06-reference-verifier.md** — The boundary for read-only verification interfaces (no writer, no policy).
+
+This repository defines **protocol semantics**, not an implementation. Any software implementations are optional and independently operated by third parties.
+
+
 - 01-overview.md — Protocol overview and scope
 - 02-definitions.md — Normative vocabulary and term definitions
 - 03-commitments.md — Commitment structure and semantics
